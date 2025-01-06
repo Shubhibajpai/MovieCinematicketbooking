@@ -1,0 +1,87 @@
+@charset "UTF-8";
+*{
+    margin: auto;
+    padding: auto;
+}
+.formfield{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+    justify-content: center;
+	
+}
+body{
+	background-color:azure;
+	background-image:url(signUP.avif);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	/*height:100vh;*/
+}
+.form
+{
+    background-color: rgb(224, 221, 216);
+    border-radius: 18px;
+    width: 400px;
+    display:flex;
+    margin-left:200px;
+    align-items:center;
+    justify-content: center;
+    height: 450px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 20px;
+}
+.head
+{
+ width: 200px;
+ height: 40px;
+ color: black;
+ border-radius: 5px;
+ text-align: center;
+ padding-top: 8px;
+ font-size: 40px;
+}
+.input{
+    width: 370px;
+    height: 30px;
+    display: flex;
+    background-color: white;
+    font-size: medium;
+    border: 2px solid wheat;
+    border-radius: 5px;
+}
+.lastname{
+    background-color: white;
+    border:2px solid wheat;
+    border-radius: 6px;
+    height: 30px;
+    /* font-weight: 300; */
+    font-size: medium;
+    width: 178px;
+}
+.para
+{
+    font-size:larger;
+    margin-left: 50px;
+}
+.para a
+{
+  font-weight:lighter;
+  font-size:large;
+  color: blue;
+}
+.btn
+{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}

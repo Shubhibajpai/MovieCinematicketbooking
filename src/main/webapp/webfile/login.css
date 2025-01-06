@@ -1,0 +1,88 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+	background-color:azure;
+	background-image:url(signUP.avif);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	/*height:100vh;*/
+}
+.formfield{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+    justify-content: center;
+	
+}
+.form
+{
+    background-color: rgb(224, 221, 216);
+    border-radius: 18px;
+    width: 350px;
+    height: 380px;
+    margin-left:150px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 30px;
+}
+.head
+{
+ width: 200px;
+ height: 40px;
+ color: black;
+ border-radius: 5px;
+ text-align: center;
+ padding-top: 8px;
+ font-size: 40px;
+ /* font-weight: bold; */
+ 
+}
+.label
+{
+    font-size: larger;
+    font-weight: 100px;
+    display: flex;
+    margin-right:215px;
+}
+.btn
+{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.input{
+    width: 290px;
+    height: 30px;
+    display: flex;
+    background-color: white;
+    font-size: medium;
+    border: white;
+    border-radius: 6px;
+    border: 2px solid wheat;
+}
+.para
+{
+    font-size:larger;
+    margin-right:20px;
+}
+.para a
+{
+  font-weight:lighter;
+  font-size:large;
+  color: blue;
+}
